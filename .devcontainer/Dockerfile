@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:1-3.11
+FROM mcr.microsoft.com/devcontainers/python:1-3.11-bookworm
 
 # Install Chromium and chromedriver
 RUN apt-get update \

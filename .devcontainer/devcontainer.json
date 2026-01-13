@@ -7,15 +7,15 @@
     "vscode": {
       "extensions": [
         "ms-python.python"
-      ]
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
   },
   "postCreateCommand": "bash .devcontainer/post_create.sh",
   "remoteEnv": {
     "CHROME_BIN": "/usr/bin/chromium"
-  },
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
   },
   "forwardPorts": [],
   "remoteUser": "vscode"
